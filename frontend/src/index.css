@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-black transition-colors duration-300;
+  }
+  .dark body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white dark:bg-black border border-black dark:border-white/20 p-6 shadow-sm;
+  }
+  
+  .btn-primary {
+    @apply bg-black text-white dark:bg-white dark:text-black border-2 border-black dark:border-white hover:bg-white hover:text-black dark:hover:bg-black dark:hover:text-white font-bold py-2 px-6 shadow-sm transition-all duration-300 active:scale-95 flex items-center justify-center gap-2 uppercase tracking-wide;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-black dark:border-white text-black dark:text-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black font-bold py-2 px-6 transition-all duration-300 active:scale-95 flex items-center justify-center gap-2 uppercase tracking-wide;
+  }
+
+  .input-field {
+    @apply w-full border-b-2 border-black dark:border-white/50 bg-transparent py-2 px-0 focus:outline-none focus:border-black dark:focus:border-white transition-colors text-black dark:text-white placeholder-[#737373];
+  }
+}
+
+/* Custom Scrollbar Monochrome */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #a3a3a3;
+  border-radius: 0px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #525252;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
