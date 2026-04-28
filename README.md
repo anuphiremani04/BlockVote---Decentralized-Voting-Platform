@@ -2,6 +2,19 @@
 
 BlockVote is a modern, secure, and fully functional decentralized voting web application built for transparency and administrative control. It features a stunning monochrome UI, real-time data syncing, and a comprehensive role-based access control system dividing regular voters from system administrators.
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="output-ss/Screenshot%202026-04-28%20214056.png" width="45%" />
+  <img src="output-ss/Screenshot%202026-04-28%20214109.png" width="45%" />
+  <img src="output-ss/Screenshot%202026-04-28%20214118.png" width="45%" />
+  <img src="output-ss/Screenshot%202026-04-28%20214143.png" width="45%" />
+  <img src="output-ss/Screenshot%202026-04-28%20214153.png" width="45%" />
+  <img src="output-ss/Screenshot%202026-04-28%20214202.png" width="45%" />
+  <img src="output-ss/Screenshot%202026-04-28%20214217.png" width="45%" />
+  <img src="output-ss/Screenshot%202026-04-28%20214236.png" width="45%" />
+</p>
+
 ## 🚀 Features
 
 ### For Voters
